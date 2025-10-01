@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rapport Label Confiance — Cabinet d'Avocats</title>
+  <meta name="description" content="Rapport Label Confiance — évaluation du climat organisationnel pour cabinets d'avocats." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .animate-shimmer {
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.15) 50%, rgba(255,255,255,0) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 2.5s infinite;
+    }
+    @keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 text-slate-900">
+
+  <!-- Header modernisé -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900"></div>
+    <div class="pointer-events-none absolute -top-32 -right-24 h-96 w-96 rounded-full bg-blue-500/20 blur-3xl"></div>
+    <div class="pointer-events-none absolute -bottom-40 -left-24 h-[28rem] w-[28rem] rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+    <div class="relative z-10 border-b border-white/10">
+      <div class="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-9 w-9 rounded-md bg-white/10 ring-1 ring-white/15 flex items-center justify-center text-white font-semibold">
+            LC
+          </div>
+          <div class="text-white/90 font-medium">Cabinet d'Expertise Juridique</div>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 ring-1 ring-emerald-400/30">
+            Rapport Label Confiance
+          </span>
+          <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-white/10 text-white/80 ring-1 ring-white/15">
+            v1.0
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative z-10 px-8 py-14 sm:py-16">
+      <div class="max-w-7xl mx-auto">
+        <div class="inline-flex items-center gap-2 mb-4">
+          <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+          <span class="text-emerald-200/90 text-sm font-medium tracking-wide">Évaluation du climat organisationnel</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-light tracking-tight text-white">
+          RAPPORT <span class="font-semibold">LABEL CONFIANCE</span>
+        </h1>
+        <p class="mt-4 text-blue-100/90 max-w-2xl">
+          Synthèse professionnelle et recommandations stratégiques fondées sur les réponses au questionnaire interne.
+        </p>
+
+        <div class="mt-8 bg-white/10 backdrop-blur-sm rounded-xl ring-1 ring-white/15">
+          <div class="px-6 py-5 grid gap-4 sm:grid-cols-3 text-sm">
+            <div class="flex items-center gap-3 text-blue-100">
+              <span class="h-2 w-2 rounded-full bg-blue-300"></span>
+              <div class="flex flex-col">
+                <span class="text-white/80 font-medium">Client</span>
+                <span class="text-blue-200/90">Cabinet d'Expertise Juridique</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-blue-100">
+              <span class="h-2 w-2 rounded-full bg-blue-300"></span>
+              <div class="flex flex-col">
+                <span class="text-white/80 font-medium">Date</span>
+                <span class="text-blue-200/90">30 septembre 2025</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-blue-100">
+              <span class="h-2 w-2 rounded-full bg-blue-300"></span>
+              <div class="flex flex-col">
+                <span class="text-white/80 font-medium">Confidentialité</span>
+                <span class="text-blue-200/90">Confidentiel</span>
+              </div>
+            </div>
+          </div>
+          <div class="h-1 w-full bg-gradient-to-r from-emerald-400 via-blue-400 to-indigo-400"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-8 py-12">
+    <!-- Synthèse Exécutive -->
+    <section class="mb-16">
+      <div class="bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-600 px-8 py-6">
+          <h2 class="text-3xl font-bold text-white">Synthèse Exécutive</h2>
+        </div>
+        <div class="p-8">
+          <div class="grid md:grid-cols-4 gap-6 mb-8">
+            <!-- KPI 1 -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 p-6 transform hover:scale-105 transition-all duration-300">
+              <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 mb-4">
+                <span class="text-white font-bold text-xl">4.4</span>
+              </div>
+              <h3 class="text-gray-800 font-semibold text-lg mb-2">Score Moyen</h3>
+              <div class="text-sm font-medium text-green-600">
+                ↗ +12% vs benchmark
+              </div>
+            </div>
+            <!-- KPI 2 -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 p-6 transform hover:scale-105 transition-all duration-300">
+              <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-indigo-600 mb-4">
+                <span class="text-white font-bold text-xl">100%</span>
+              </div>
+              <h3 class="text-gray-800 font-semibold text-lg mb-2">Taux Réponse</h3>
+              <div class="text-sm font-medium text-green-600">
+                ↗ +15% vs benchmark
+              </div>
+            </div>
+            <!-- KPI 3 -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 p-6 transform hover:scale-105 transition-all duration-300">
+              <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-orange-500 mb-4">
+                <span class="text-white font-bold text-xl">0</span>
+              </div>
+              <h3 class="text-gray-800 font-semibold text-lg mb-2">Alertes</h3>
+              <div class="text-sm font-medium text-green-600">
+                ↗ 0% aucune alerte détectée
+              </div>
+            </div>
+            <!-- KPI 4 -->
+            <div class="bg-white rounded-xl shadow-xl border border-gray-100 p-6 transform hover:scale-105 transition-all duration-300">
+              <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-green-600 mb-4">
+                <span class="text-white font-bold text-xl">5</span>
+              </div>
+              <h3 class="text-gray-800 font-semibold text-lg mb-2">Recommandations</h3>
+              <div class="text-sm font-medium text-green-600">
+                ↗ 100% de couverture
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border-l-4 border-blue-500">
+            <p class="text-gray-700 text-lg leading-relaxed">
+              <strong class="text-blue-900">Constat principal :</strong>
+              Le cabinet présente d'excellents résultats avec un score moyen de 4.4/5. L'ensemble des piliers affichent des performances très satisfaisantes, témoignant d'un climat organisationnel sain et d'une culture d'entreprise positive. Les pratiques de dialogue, de management respectueux et d'éthique professionnelle sont particulièrement bien établies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 1 : Dialogue et Communication -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 1 — Dialogue et Communication
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Des réunions régulières sont-elles mises en place pour favoriser le dialogue ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Des aménagements sont-ils proposés pour favoriser l'inclusion ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 5 : Reconnaissance et Développement -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 5 — Reconnaissance et Développement
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le travail accompli est-il régulièrement valorisé ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Des possibilités de formation et de développement professionnel sont-elles offertes ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les collaborateurs sont-ils associés à la définition des valeurs du cabinet ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 6 : Éthique et Déontologie -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 6 — Éthique et Déontologie
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet respecte-t-il rigoureusement la déontologie ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet s'engage-t-il en faveur de valeurs éthiques et sociétales ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet participe-t-il à des actions pro bono ou solidaires ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 7 : Relation Client -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 7 — Relation Client
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">La communication avec les clients est-elle claire et transparente ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet respecte-t-il les délais et engagements pris ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">La confidentialité et l'intégrité dans la gestion des dossiers sont-elles assurées ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan d'Action Stratégique -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-emerald-500 to-green-600 rounded-full mr-4"></div>
+        Plan d'Action Stratégique
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Phase 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:scale-105 transition-all duration-300">
+          <div class="bg-gradient-to-r from-blue-500 to-indigo-600 px-6 py-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-white">Phase 1</h3>
+              <span class="text-white/80 text-sm">Court terme (0-3 mois)</span>
+            </div>
+            <h4 class="text-white text-lg font-medium">Consolidation des acquis</h4>
+          </div>
+          <div class="p-6">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Formaliser les bonnes pratiques existantes en communication et management</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Documenter les processus d'écoute active et de responsabilisation</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Créer un référentiel des valeurs du cabinet co-construit avec les équipes</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:scale-105 transition-all duration-300">
+          <div class="bg-gradient-to-r from-emerald-500 to-green-600 px-6 py-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-white">Phase 2</h3>
+              <span class="text-white/80 text-sm">Moyen terme (3-6 mois)</span>
+            </div>
+            <h4 class="text-white text-lg font-medium">Optimisation continue</h4>
+          </div>
+          <div class="p-6">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Renforcer les programmes de formation et de développement professionnel</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Élargir les initiatives d'inclusion et de diversité</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Mettre en place des indicateurs de suivi du climat organisationnel</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:scale-105 transition-all duration-300">
+          <div class="bg-gradient-to-r from-purple-500 to-purple-600 px-6 py-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-white">Phase 3</h3>
+              <span class="text-white/80 text-sm">Long terme (6-12 mois)</span>
+            </div>
+            <h4 class="text-white text-lg font-medium">Innovation et rayonnement</h4>
+          </div>
+          <div class="p-6">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-purple-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Développer des partenariats pour des actions pro bono structurées</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-purple-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Implémenter des outils numériques pour améliorer la qualité de vie au travail</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-purple-600 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Préparer la candidature au Label Confiance</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Phase 4 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:scale-105 transition-all duration-300">
+          <div class="bg-gradient-to-r from-amber-500 to-orange-500 px-6 py-4">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-white">Phase 4</h3>
+              <span class="text-white/80 text-sm">Suivi continu</span>
+            </div>
+            <h4 class="text-white text-lg font-medium">Évaluation et amélioration</h4>
+          </div>
+          <div class="p-6">
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Réaliser une nouvelle enquête Label Confiance dans 12 mois</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Analyser l'évolution des scores et identifier les nouvelles opportunités</span>
+              </li>
+              <li class="flex items-start">
+                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 mt-2 mr-3 flex-shrink-0"></div>
+                <span class="text-gray-700">Partager les réussites et bonnes pratiques avec l'écosystème juridique</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KPIs et Suivi -->
+    <section class="mb-16">
+      <div class="bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-6">
+          <h2 class="text-3xl font-bold text-white">Indicateurs de Performance (KPIs)</h2>
+        </div>
+        <div class="p-8">
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="text-center">
+              <div class="text-4xl font-bold text-indigo-600 mb-2">+0.5</div>
+              <div class="text-gray-600 font-medium">Objectif de progression du score</div>
+              <div class="text-sm text-gray-500 mt-1">dans les 12 prochains mois</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-emerald-600 mb-2">100%</div>
+              <div class="text-gray-600 font-medium">Maintien du taux de réponse</div>
+              <div class="text-sm text-gray-500 mt-1">engagement collaborateurs</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-blue-600 mb-2">4</div>
+              <div class="text-gray-600 font-medium">Phases du plan d'action</div>
+              <div class="text-sm text-gray-500 mt-1">déployées sur 12 mois</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm mt-8">
+      <div class="border-t border-gray-200 pt-8 pb-12">
+        <p class="font-medium mb-2">Rapport élaboré selon des standards de conseil en management</p>
+        <p>Données confidentielles - Usage interne uniquement</p>
+        <p class="text-xs text-gray-400 mt-4">© 2025 Label Confiance - Cabinet d'Expertise Juridique</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Des mécanismes d'écoute active et de propositions existent-ils ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les informations importantes sont-elles communiquées de manière claire et transparente ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les collaborateurs ont-ils la possibilité d'être responsabilisés ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 2 : Management Respectueux -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 2 — Management Respectueux
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Constatez-vous l'absence de pratiques de harcèlement ou de management abusif ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les décisions managériales sont-elles prises de manière respectueuse ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les associés et managers donnent-ils l'exemple attendu ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 3 : Qualité de Vie au Travail -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 3 — Qualité de Vie au Travail
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Les conditions de travail et l'équilibre vie pro/perso sont-ils respectés ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">4.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet promeut-il une culture du bien-être ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilier 4 : Diversité et Inclusion -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+        <div class="w-2 h-8 bg-gradient-to-b from-blue-500 to-indigo-600 rounded-full mr-4"></div>
+        Pilier 4 — Diversité et Inclusion
+      </h2>
+
+      <div class="grid gap-8">
+        <!-- Question 1 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">Le cabinet applique-t-il une politique favorisant la diversité et l'égalité des chances ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  5
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-sm font-medium text-gray-600">Score Moyen</span>
+                <span class="text-2xl font-bold text-blue-600">5.0/5</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3 shadow-inner">
+                <div class="h-3 rounded-full bg-gradient-to-r from-green-400 to-green-500 transition-all duration-1000 ease-out shadow-sm" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="text-sm font-medium text-green-600">
+              Statut: ✓ Satisfaisant
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden transform hover:shadow-2xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+              <h3 class="text-xl font-semibold text-gray-800 flex-1 pr-4">L'égalité des sexes est-elle respectée ?</h3>
+              <div class="flex space-x-3">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg font-bold text-white text-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg">
+                  4
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between items-center mb-2">
